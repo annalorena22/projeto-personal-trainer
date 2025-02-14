@@ -1,0 +1,70 @@
+.container-contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-top: 16%;
+    background-color: rgb(207, 207, 207);
+}
+
+.container-form {
+    background-color: white;
+    padding-bottom: 20px;
+    width: 80%;
+    max-width: 80%; 
+}
+
+.form-contato {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 20px; 
+}
+
+.h2-form {
+    font-size: 16px;
+    text-align: center;
+    color: #17ccfb;
+    margin-bottom: 20px;
+    margin-top: 2%;
+}
+
+
+label {
+    display: block;
+    color: black;
+    margin-left: 24%;
+    font-weight: bold;
+    text-align: justify;
+}
+
+input, textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid rgb(207, 207, 207);
+    border-radius: 5px;
+    font-size: 14px;
+    outline: none;
+    width: 50%; 
+}
+
+textarea {
+    height: 110px;
+}
+
+
+.button-submit {
+    background-color: #17ccfb;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 50%; 
+    margin-bottom: 3%;
+}
+
+.button-submit:hover {
+    background-color: #13b0e0;
+}

@@ -1,0 +1,28 @@
+@import url(header.css);
+@import url(footer.css);
+@import url(home.css);
+@import url(planos.css);
+@import url(sobre.css);
+@import url(contato.css);
+
+*{
+    margin:0px;
+    padding: 0px;
+    border: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: rgb(207, 207, 207);
+    height: 100%;
+}
+
+.h3-title {
+    display: flex;
+    justify-content: left;
+    margin-top: 18%;
+    margin-left: 6%;
+    font-size: 28px;
+    font-style: normal;
+    color: black;
+}
