@@ -17,12 +17,6 @@ body{
     height: 100%;
 }
 
-.h3-title {
-    display: flex;
-    justify-content: left;
-    margin-top: 18%;
-    margin-left: 6%;
-    font-size: 28px;
-    font-style: normal;
-    color: black;
+main{
+    margin-top: 26vh;
 }
