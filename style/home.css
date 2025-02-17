@@ -3,7 +3,7 @@
     grid-template-columns: 40% 60%;
     max-width: 90%;
     margin: auto;
-    margin-top: 20vh;
+    margin-top: 0;
     background-color: white;
 }
 
@@ -37,14 +37,14 @@
 
 #foto-grid-home{
     width: 100%;
-    height: auto;
+    height: 100%;
     object-fit: cover;
 }
 
 .button-planos{
     display: grid;
     grid-template-columns: 60% 40%;
-    width: 23%;
+    width: 150px;
     place-items: center;
     background-color: rgb(250, 250, 250);
     color: #17ccfb;
@@ -55,23 +55,143 @@
     border-radius: 8px;
     border: 2px solid #17ccfb;
     padding: 15px 20px 15px 20px;
-    margin-left: 66%;
+    margin-left: 60%;
     margin-top: 23%;
 }
 
 
 .button-planos:hover{
-    width: 26%;
-    margin-left: 64%;
-    margin-top: 23%;
+    width: 200px;
+    margin-left: 58%;
     font-size: 20px;
 }
 
-@media (max-width: 1530px) {
-    .grid-home-container{
-        display: flex;
-        flex-direction: column;
-        justify-content: left
-        ;
+
+/* 
+@media (max-width: 1778px) {
+    .button-planos{
+        font-size: 17px;
+    }
+
+    #h1-title1{
+        font-size: 38px;
+        padding-top: 70px;
+        padding-left: 30px;
+
+    }
+
+    #h1-title2{
+        font-size: 48px;
+        padding-left: 30px;
+        color: #17ccfb;
     }
 }
+
+@media (max-width:1800px) {
+    .button-planos:hover{
+        width: 26%;
+        margin-left: 64%;
+        margin-top: 23%;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 1679px) {
+    .button-planos{
+        font-size: 16px;
+    }
+
+    .button-planos:hover{
+        width: 26%;
+        margin-left: 64%;
+        margin-top: 23%;
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width: 1581px) {
+    .button-planos{
+        font-size: 15px;
+    }
+
+    .button-planos:hover{
+        width: 26%;
+        margin-left: 64%;
+        margin-top: 23%;
+        font-size: 19px;
+    }
+}
+
+@media (max-width: 1520px) {
+    .grid-home-container {
+        display: grid;
+        grid-template-columns: auto;
+        height: 20%;
+    }
+
+    #grid-item-2 {
+        grid-row-start: 1;
+    }
+
+    .button-planos{
+        width: 13%;
+        font-size: 18px;
+        margin-top: 11%;
+        margin-bottom: 9%;
+        margin-left: 42%;
+    }
+
+    #h1-title1{
+        padding-top: 55px;  
+    }
+    
+}
+
+@media (min-width: 456px) {
+    #h1-title1{
+        font-size: 30px;
+        padding-top: 50px;
+        padding-left: 30px;
+
+    }
+
+    #h1-title2{
+        font-size: 40px;
+        padding-left: 30px;
+        color: #17ccfb;
+    }
+
+    #p-home{
+        font-size: 18px;
+        padding-top: 40px;
+    }
+
+    .button-planos{
+        width: 40%;
+        font-size: 18px;
+        margin-left: 25%;
+        margin-top: 12%;
+        margin-bottom: 17%;
+    }
+}
+
+@media (min-width: 540px) {
+    .button-planos{
+        width: 35%;
+        margin-left: 27%;
+        margin-top: 7%;
+    }
+}
+
+@media (min-width: 640px) {
+    .button-planos{
+        width: 32%;
+    }
+}
+
+@media (min-width: 760px) {
+    .button-planos{
+        width: 30%;
+    }
+} */

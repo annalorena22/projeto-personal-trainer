@@ -47,5 +47,53 @@ header{
 }
 
 #img-peso{
-    width: 4%;
+    width: 5%;
 }
+
+/* @media (min-width:456px) {
+    .container-header{
+        width: 100%;
+        margin: auto;
+
+    }
+    .grid-item {
+        font-size: 15px;
+    } 
+
+    #img-peso{
+        width: 10%;
+    }
+}
+
+@media (max-width: 540px) {
+    #img-peso{
+        width: 7%;
+    }
+}
+
+@media (max-width: 540px) {
+    #img-peso{
+        width: 7%;
+    }
+}
+
+@media (max-width: 1000px){
+    #img-peso{
+        width: 8%;
+    }
+}
+
+
+@media (max-width: 1200px){
+    #img-peso{
+        width: 7%;
+    }
+
+}
+
+@media (max-width: 1400px){
+    #img-peso{
+        width: 6%;
+    }
+    
+} */
